@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="15dp"
+    android:orientation="vertical"
+    tools:context="com.example.ezio.myapplication.SecondActivity"
+    android:weightSum="1"
+    android:background="@drawable/day">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the Day"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SATURDAY"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="bbb"
+        android:textColor="#008FFF"
+        android:background="#fff"
+                />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUNDAY"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="bbb"
+        android:background="#fff"
+        android:textColor="#008FFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MONDAY"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="bbb"
+        android:background="#fff"
+        android:textColor="#008FFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TUESDAY"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="bbb"
+        android:background="#fff"
+        android:textColor="#008FFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEDNESDAY"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="bbb"
+        android:background="#fff"
+        android:textColor="#008FFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THURSDAY"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="bbb"
+        android:background="#fff"
+        android:textColor="#008FFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRIDAY"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="bbb1"
+        android:background="#fff"
+        android:textColor="#008FFF"/>
+
+       </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+

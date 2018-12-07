@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.ezio.myapplication.ThirdActivity"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Department"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+        android:id="@+id/button8"
+        android:onClick="sem"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EEE"
+        android:id="@+id/button9"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CE"
+        android:id="@+id/button10"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPE"
+        android:id="@+id/button11"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ME"
+        android:id="@+id/button12"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARCH"
+        android:id="@+id/button13"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TE"
+        android:id="@+id/button17"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BBA"
+        android:id="@+id/button14"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MBA/EMBA"
+        android:id="@+id/button15"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button16"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sem"
+        />
+
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

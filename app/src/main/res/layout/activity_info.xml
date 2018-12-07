@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ezio.myapplication.Info"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/aust1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFO"
+        android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Ahsanullah University of Science and Technology (AUST) was founded by the Dhaka Ahsania Mission in 1995.
+
+
+
+Dhaka Ahsania Mission is a non-profit voluntary organization in Bangladesh. The Mission was established in 1958 by Khan Bahadur Ahsanullah, an outstanding educationist and social reformer of undivided India. With his own vision of a better society, characterized by a wealth of moral and spiritual values of the highest humanism that are universally acclaimed through ages and manifested in every sphere of life:social, economic and cultural; and access to education and resources, he established the Mission. His remarkable educational reforms include among others introduction of roll number system in the public examination and creating equal opportunity for education of all groups of people in the society.
+
+
+
+Besides, he has contributed to the society by writing a large number of books covering a wide range of areas from human and social life, history, human development, literature, religion, biography, moral values etc.
+
+
+
+Though initially charity and welfare activities were the major focus of the Mission agenda, it has expanded its arena of activities leaning towards sustainable development strategies with the passage of time since early 1980s."/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text=" The Ahsanullah University of Science and Technology will be the premier centre of excellence in science, engineering and technology by creating and transferring knowledge with human touch to the young generations to come to enhance the quality of life in Bangladesh and beyond.
+
+
+
+The mission of the Ahsanullah University of Science and Technology is to develop human resources in the fields of science, engineering and technology to meet the ever changing needs of the society in the perspective of the highly complex and globalized world and to do so it aims at producing quality graduates imbued with the spirit of ethical values and equipped with knowledge and skills appropriate to the fast changing world so that they can face the challenges successfully wherever they are and contribute to social and economic development of the country in their own humble way."
+
+
+    />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

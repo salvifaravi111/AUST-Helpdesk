@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_semester">Semester</string>
+    <string name="title_activity_one1">ONE1</string>
+    <string name="title_activity_rou11">Rou11</string>
+    <string name="select_dept">Select Your Department</string>
+    <string-array name="dept_names">
+
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>CE</item>
+        <item>IPE</item>
+        <item>ME</item>
+        <item>ARCH</item>
+        <item>TE</item>
+        <item>BBA</item>
+    </string-array>
+
+    <string name="select_sem">Select your Semester</string>
+    <string-array name="sem_names">
+
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>3.1</item>
+        <item>3.2</item>
+        <item>4.1</item>
+        <item>4.2</item>
+    </string-array>
+
+    <string name="select_sec">Select Your Section</string>
+    <string-array name="sec_names">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+
+
+</resources>

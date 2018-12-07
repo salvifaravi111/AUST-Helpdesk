@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.ezio.myapplication.MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/v">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahsanullah University of Science and Technology"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#201F46"
+        android:layout_gravity="center"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click START to EXPLORE"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#4C090B"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/mybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#878787"
+        android:textColor="#00aee5"
+        android:text="START"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About AUST"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#878787"
+        android:textColor="#00aee5"
+        android:layout_gravity="center"
+        android:onClick="aboutaust"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#878787"
+        android:textColor="#00aee5"
+        android:onClick="about"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+
+
+
+</LinearLayout>
